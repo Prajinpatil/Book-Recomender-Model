@@ -9,3 +9,5 @@ ivs = 3  # item genre vector start
 u_s = 3  # start of columns to use in training, user
 i_s = 1  # start of columns to use in training, items
 print(f"Number of training vectors: {len(item_train)}")
+
+#we
