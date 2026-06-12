@@ -1,0 +1,21 @@
+book_id,title,author,category,tags
+B001,Deep Learning,Ian Goodfellow,Artificial Intelligence,deep learning neural networks AI machine learning optimization
+B002,Machine Learning Basics,Sebastian Raschka,Machine Learning,machine learning supervised unsupervised classification regression
+B003,Python Programming,Mark Lutz,Programming,python programming scripting object oriented
+B004,Introduction to Algorithms,Thomas Cormen,Computer Science,algorithms data structures complexity sorting searching
+B005,The Art of Computer Programming,Donald Knuth,Computer Science,algorithms programming mathematics combinatorics
+B006,Pattern Recognition and Machine Learning,Christopher Bishop,Machine Learning,machine learning probabilistic graphical models bayesian inference
+B007,Computer Vision: Algorithms and Applications,Richard Szeliski,Computer Vision,computer vision image processing object detection feature extraction
+B008,Artificial Intelligence: A Modern Approach,Stuart Russell,Artificial Intelligence,artificial intelligence search planning knowledge representation
+B009,Data Structures and Algorithms in Python,Michael Goodrich,Programming,python data structures algorithms graphs trees
+B010,Natural Language Processing with Python,Steven Bird,Natural Language Processing,NLP text processing tokenization machine learning linguistics
+B011,History of India,Romila Thapar,History,ancient india history culture civilization
+B012,The Great Gatsby,F. Scott Fitzgerald,Fiction,fiction classic american literature novel
+B013,Digital Design,Morris Mano,Electronics,digital logic circuits boolean algebra sequential combinational
+B014,Signals and Systems,Alan Oppenheim,Electronics,signals systems fourier transform laplace DSP
+B015,Embedded Systems Design,Steve Heath,Embedded Systems,embedded systems microcontroller raspberry pi real time programming
+B016,Operating Systems: Three Easy Pieces,Remzi Arpaci-Dusseau,Systems,operating systems processes memory virtualization concurrency
+B017,Computer Networks,Andrew Tanenbaum,Networking,networking protocols TCP IP internet distributed systems
+B018,Database System Concepts,Abraham Silberschatz,Database,databases SQL relational model transactions query optimization
+B019,Linear Algebra Done Right,Sheldon Axler,Mathematics,linear algebra vector spaces matrices eigenvalues
+B020,Probability and Statistics,Morris DeGroot,Mathematics,probability statistics distributions hypothesis testing inference

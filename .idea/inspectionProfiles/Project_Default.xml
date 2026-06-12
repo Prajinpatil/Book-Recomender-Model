@@ -1,0 +1,140 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <list>
+          <option value="blas" />
+          <option value="brotlicffi" />
+          <option value="bzip2" />
+          <option value="ca-certificates" />
+          <option value="certifi" />
+          <option value="cffi" />
+          <option value="charset-normalizer" />
+          <option value="cuda-cccl" />
+          <option value="cuda-cccl_win-64" />
+          <option value="cuda-cudart" />
+          <option value="cuda-cudart-dev" />
+          <option value="cuda-cupti" />
+          <option value="cuda-libraries" />
+          <option value="cuda-libraries-dev" />
+          <option value="cuda-nvrtc" />
+          <option value="cuda-nvrtc-dev" />
+          <option value="cuda-nvtx" />
+          <option value="cuda-opencl" />
+          <option value="cuda-opencl-dev" />
+          <option value="cuda-profiler-api" />
+          <option value="cuda-runtime" />
+          <option value="cuda-version" />
+          <option value="expat" />
+          <option value="filelock" />
+          <option value="freetype" />
+          <option value="giflib" />
+          <option value="gmp" />
+          <option value="gmpy2" />
+          <option value="idna" />
+          <option value="intel-openmp" />
+          <option value="jinja2" />
+          <option value="jpeg" />
+          <option value="khronos-opencl-icd-loader" />
+          <option value="lcms2" />
+          <option value="lerc" />
+          <option value="libcublas" />
+          <option value="libcublas-dev" />
+          <option value="libcufft" />
+          <option value="libcufft-dev" />
+          <option value="libcurand" />
+          <option value="libcurand-dev" />
+          <option value="libcusolver" />
+          <option value="libcusolver-dev" />
+          <option value="libcusparse" />
+          <option value="libcusparse-dev" />
+          <option value="libdeflate" />
+          <option value="libexpat" />
+          <option value="libffi" />
+          <option value="libjpeg-turbo" />
+          <option value="libnpp" />
+          <option value="libnpp-dev" />
+          <option value="libnvjitlink" />
+          <option value="libnvjitlink-dev" />
+          <option value="libnvjpeg" />
+          <option value="libnvjpeg-dev" />
+          <option value="libpng" />
+          <option value="libtiff" />
+          <option value="libuv" />
+          <option value="libwebp" />
+          <option value="libwebp-base" />
+          <option value="libzlib" />
+          <option value="lz4-c" />
+          <option value="markupsafe" />
+          <option value="mkl" />
+          <option value="mkl-service" />
+          <option value="mkl_fft" />
+          <option value="mkl_random" />
+          <option value="mpc" />
+          <option value="mpfr" />
+          <option value="mpmath" />
+          <option value="networkx" />
+          <option value="numpy" />
+          <option value="numpy-base" />
+          <option value="opencl-headers" />
+          <option value="openjpeg" />
+          <option value="openssl" />
+          <option value="packaging" />
+          <option value="pillow" />
+          <option value="pip" />
+          <option value="pycparser" />
+          <option value="pysocks" />
+          <option value="pytorch" />
+          <option value="pytorch-cuda" />
+          <option value="pytorch-mutex" />
+          <option value="pyyaml" />
+          <option value="requests" />
+          <option value="setuptools" />
+          <option value="sqlite" />
+          <option value="tbb" />
+          <option value="tk" />
+          <option value="typing_extensions" />
+          <option value="tzdata" />
+          <option value="ucrt" />
+          <option value="urllib3" />
+          <option value="vc" />
+          <option value="vc14_runtime" />
+          <option value="vs2015_runtime" />
+          <option value="wheel" />
+          <option value="win_inet_pton" />
+          <option value="xz" />
+          <option value="yaml" />
+          <option value="zlib" />
+          <option value="zstd" />
+          <option value="contourpy" />
+          <option value="cycler" />
+          <option value="fonttools" />
+          <option value="fsspec" />
+          <option value="kiwisolver" />
+          <option value="matplotlib" />
+          <option value="opencv-python" />
+          <option value="polars" />
+          <option value="polars-runtime-32" />
+          <option value="psutil" />
+          <option value="pyparsing" />
+          <option value="python-dateutil" />
+          <option value="scipy" />
+          <option value="six" />
+          <option value="sympy" />
+          <option value="torchaudio" />
+          <option value="torchvision" />
+          <option value="ultralytics" />
+          <option value="ultralytics-thop" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
