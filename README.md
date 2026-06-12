@@ -6,7 +6,7 @@ Built as part of a smart library automation project — originally replacing a f
 
 ---
 
-## 🧠 How It Works
+##  How It Works?
 
 ```
 RFID Book Issue
@@ -35,7 +35,7 @@ Filter Already-Read Books → Rank → Top-N Recommendations
 
 ---
 
-## 📁 Project Structure
+## Project Structure:
 
 ```
 book-recommender/
@@ -53,35 +53,6 @@ book-recommender/
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone & Install
-
-```bash
-git clone https://github.com/<your-username>/book-recommender.git
-cd book-recommender
-pip install -r requirements.txt
-```
-
-### 2. Run the Demo
-
-```bash
-python main.py --demo
-```
-
-### 3. Get Recommendations for a User
-
-```bash
-python main.py --user U001 --top 5
-```
-
-### 4. Find Books Similar to a Specific Book
-
-```bash
-python main.py --book B001 --top 5
-```
-
----
 
 ## 🛠️ Usage in Code
 
@@ -93,18 +64,18 @@ rec = BookRecommender(
     history_path="data/borrowing_history.csv"
 )
 
-# Recommend for a user (based on full borrowing history)
+# Recommend for a user which is based on full borrowing history
 recs = rec.recommend_for_user("U001", top_n=5)
 print(recs)
 
-# Find books similar to a specific book
+# Find books with similar genre
 similar = rec.get_similar_books("B001", top_n=5)
 print(similar)
 ```
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 ```
 👤 User: U001
@@ -130,33 +101,9 @@ print(similar)
 
 ---
 
-## 🧪 Tests
 
-```bash
-pytest tests/ -v
-```
 
-16 tests covering: data loading, similarity scores, ranking order, exclusion of already-read books, error handling, and semantic correctness (ML books recommend ML books).
 
----
-
-## 📦 Data Format
-
-**books.csv**
-```csv
-book_id,title,author,category,tags
-B001,Deep Learning,Ian Goodfellow,Artificial Intelligence,deep learning neural networks AI
-```
-
-**borrowing_history.csv**
-```csv
-user_id,book_id,issue_date,return_date
-U001,B001,2024-01-05,2024-01-20
-```
-
-Replace with your own library data. The `user_id` maps to an RFID card/tag ID.
-
----
 
 ## 🔧 Tech Stack
 
@@ -167,7 +114,3 @@ Replace with your own library data. The `user_id` maps to an RFID card/tag ID.
 - **pytest** — unit testing
 
 ---
-
-## 📄 Resume Description
-
-> Developed a content-based book recommendation system using TF-IDF feature extraction and cosine similarity to deliver personalized, topic-aware recommendations from RFID-tracked borrowing history; replaced a frequency-based approach, improving recommendation relevance and enabling lightweight edge deployment on Raspberry Pi.
