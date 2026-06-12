@@ -1,4 +1,5 @@
 # 📚 ML-Based Book Recommendation System
+## Developed during Summer Internship at IIIT Allahabad (May–June 2025)
 
 A **content-based filtering** recommendation engine for RFID-integrated library systems. Generates personalized, topic-aware book suggestions from a user's borrowing history using **TF-IDF vectorization** and **cosine similarity**.
 
@@ -114,3 +115,4 @@ print(similar)
 - **pytest** — unit testing
 
 ---
+## Note:-data/ contains sample synthetic data for demonstration. If want to test please replace with your own library catalogue and RFID borrowing logs.
